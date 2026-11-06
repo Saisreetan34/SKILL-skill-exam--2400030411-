@@ -1,0 +1,25 @@
+
+# Eclipse workspace files
+.metadata/
+**/.settings/
+**/.classpath
+**/.project
+
+# Maven generated files
+**/target/
+
+# IDE files
+.idea/
+.vscode/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
