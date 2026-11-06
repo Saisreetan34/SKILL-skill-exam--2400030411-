@@ -31,7 +31,7 @@ services:
       dockerfile: backend.Dockerfile
     restart: unless-stopped
     ports:
-      - "9001:8001"
+      - "2345:8001"
     environment:
       SPRING_DATASOURCE_URL: "jdbc:postgresql://postgresdb:5432/Skill-exam-2400030411"
       SPRING_DATASOURCE_USERNAME: postgres
